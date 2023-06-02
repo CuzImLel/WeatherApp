@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherChecker | Coded by JustDxniel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&family=Open+Sans:wght@500;600;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="view">
+
+            <div class="searchcontainer">
+                <form class="searchbar" id="searchbar"> 
+                    <input type="search" id="search" name="q" placeholder="Search...">
+                    <button><span class="material-symbols-outlined">search</span></button>
+                  </form>
+                </div>
+
+        <h2 id="location">Usa</h2>
+        <h1 id="temperature">30°</h1>
+        <h2 id="state">sunny</h2>
+
+        <div class="card1">
+        <div class="progress">
+            <p class="comment">weather forecast</p>
+            <div class="items">
+            <ul>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                <li><a id="hour">Now</a><br><span class="material-symbols-outlined" id="icon">sunny</span><h2 id="degrees">30°</h2></li>
+                
+               
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="card2">
+            <div class="infos">
+                <h1>General Information</h1>
+
+                <div class="list">
+                <ul>
+
+                    <li><span class="material-symbols-outlined">humidity_mid</span><a>Humidity:</a><a id="humidity"></a></li>
+                    <li><span class="material-symbols-outlined">air</span><a>Wind:</a><a id="wind"></a></li>
+                    <li><span class="material-symbols-outlined">compress</span><a>Pressure:</a><a id="pressure"></a></li>
+                    <li><span class="material-symbols-outlined">visibility</span><a>Visibility:</a><a id="visibility"></a></li>
+                    
+                </ul>
+            </div>
+
+            </div>
+
+        
+        </div>
+        
+        </div>
+
+        
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
